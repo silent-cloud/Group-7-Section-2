@@ -1,0 +1,29 @@
+package app;
+
+import java.awt.BorderLayout;
+
+import javax.swing.JFrame;
+
+/*
+ * This class draws the main PirexWindow on the Screen
+ * A new object of this class must be created to use
+ * at. All smaller containers can be inserted into this 
+ * main frame.
+ */
+public class PirexFrame extends JFrame {
+	
+	/*
+	 * Default Constructor: constructs a new PirexFrame with Name "Pirex"
+	 * The default layout used in BorderLayout
+	 * 
+	 */
+	public PirexFrame() {
+		
+		super("Pirex");
+		setLayout(new BorderLayout());
+		setVisible(true);
+		setSize(600, 400);
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		
+	}
+}
