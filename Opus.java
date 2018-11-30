@@ -39,9 +39,13 @@ public class Opus
 		}
 		return result;
 	}
-	public String findText(int index)
+	public String getDoc(int index)
 	{
 		return documents.get(index);
+	}
+	public int getOpusSize()
+	{
+		return documents.size();
 	}
 	public void setAuthor (String newName)
 	{
