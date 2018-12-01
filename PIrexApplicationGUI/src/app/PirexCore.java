@@ -1,5 +1,7 @@
 package app;
 
+import java.awt.BorderLayout;
+
 import javax.swing.JTabbedPane;
 
 /*
@@ -15,9 +17,13 @@ public class PirexCore {
 		PirexFrame pirex = new PirexFrame();
 		
 		//Add all the components: Copied from PirexLoadingTabDriver.java class file
+		
+		//Adding File Menu
+		
+		//Adding Tabs
 		JTabbedPane jtb = new JTabbedPane();
 		jtb.add("Load Document", new PirexLoadingTab());
-		pirex.add(jtb);
+		pirex.add(jtb, BorderLayout.CENTER);
 		
 		//Add functionality components
 
