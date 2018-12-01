@@ -28,6 +28,13 @@ public class PirexCore {
 		pirex.add(jtb, BorderLayout.CENTER);
 		
 		//Add functionality components
+		
+		
+		
+		
+		//Setting the window visible
+		pirex.setSize(1080, 720);
+		pirex.setVisible(true);
 
 	}
 

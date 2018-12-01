@@ -21,8 +21,9 @@ public class PirexFrame extends JFrame {
 		
 		super("Pirex");
 		setLayout(new BorderLayout());
-		setVisible(true);
-		setSize(600, 400);
+		//setSize(780, 520);
+		//setResizable(false);
+		
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		
 	}
