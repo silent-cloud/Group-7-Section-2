@@ -24,7 +24,7 @@ public class PirexCore {
 		JTabbedPane jtb = new JTabbedPane();
 		jtb.add("Load Document", new PirexLoadingTab()); //Load Document Tab
 		jtb.add("Search Document", new PirexSearchPanel()); //Search Document Tab
-															//Document Summary Tab
+		jtb.add("Document Summary", new SummaryTab()); //Document Summary Tab
 		pirex.add(jtb, BorderLayout.CENTER);
 		
 		//Add functionality components
